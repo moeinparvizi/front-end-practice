@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: o;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    opacity: 50%;
+}
+
+li {float: left;}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+  }
+
+li a:hover {background-color: #111;}
+
+.head {
+  padding: 300px;
+  text-align: center;
+  background: #0c1b18;
+  color: rgb(87, 87, 87);
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 1px solid #000;
+}
+
+.image {margin: 20px;}
+
+.contact-content {
+    margin: 50px;
+    padding: 50px;
+}
+
+.hr-under-contact {
+    width: 75%;
+    border: 3px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.container-little {
+    margin: 100px 100px 0 0;
+    padding: 0px 100px 100px 200px;
+}
+
+
+.column {
+    float: left;
+    width: 30%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    background-color: bisque;
+}
+
+.contain h4 {
+    padding: 5px;
+    text-align: center;
+}
+
+.contain p {
+    padding: 10px;
+}
+
+.hri {
+    width: 80%;
+    margin: auto;
+}
