@@ -7,6 +7,7 @@ body{
     Helvetica, sans-serif;
     background-color: rgb(190, 190, 190);
 }
+/* style for my header */
 header{
     background-color: #363636;
     text-align: center;
@@ -20,4 +21,43 @@ header h1{
 header>span{
     padding: 10px;
     color: rgb(155, 85, 85);
+}
+/* style for my navigation bar */
+.nav-menu{
+    background-color: aqua;
+}
+.nav-menu ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 20px;
+}
+.nav-menu ul>li{
+    text-decoration: none;
+    display: inline;
+    padding: 5px;
+}
+.nav-menu ul>li>a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    background-color: #363636;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.nav-menu>ul>li>a:hover{
+    background-color: rgb(190, 190, 190);
+    color: #000;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
 }
