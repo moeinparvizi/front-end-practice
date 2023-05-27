@@ -1,0 +1,23 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, "Helvetica Neue", 
+    Helvetica, sans-serif;
+    background-color: rgb(190, 190, 190);
+}
+header{
+    background-color: #363636;
+    text-align: center;
+    padding: 30px;
+    margin-top: 10px ;
+}
+header h1{
+    color: aqua;
+    padding: 10px;
+}
+header>span{
+    padding: 10px;
+    color: rgb(155, 85, 85);
+}
